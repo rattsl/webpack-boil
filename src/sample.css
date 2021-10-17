@@ -1,9 +1,10 @@
 h1{
     color: red;
     font-size: 2em;
+    transition: all 1s;
 }
 
-/* h1:hover{
+h1:hover{
     color: blue;
     transform: translateX(30px);
-} */
+}
