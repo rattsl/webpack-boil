@@ -4,9 +4,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: "./src/js/index.js",
     output: {
-        filename: "bundle.js",
+        filename: "./js/bundle.js",
         path: path.resolve(__dirname, "./dist")
     },
     module: {
@@ -25,9 +25,11 @@ module.exports = {
         ]
     },
     plugins: [
-        new MinCssExtractPlugin(),
+        new MinCssExtractPlugin({
+            filename: "./styles/style.css"
+        }),
         new HtmlWebpackPlugin({
-            template: "./src/index.html",
+            template: "./src/templetes/index.html",
         }),
         new CleanWebpackPlugin()
     ]
