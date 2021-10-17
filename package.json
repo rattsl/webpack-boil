@@ -9,6 +9,7 @@
   "author": "rattsl",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^6.4.0",
     "webpack": "^5.58.2",
     "webpack-cli": "^4.9.0"
   }
