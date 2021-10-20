@@ -20,9 +20,20 @@ module.exports = {
                     {
                         loader: "css-loader",
                     },
+                ],
+            },
+            {
+                test: /\.png$/,
+                use: [
+                    {
+                        loader: "url-loader",
+                        options: {
+                            esModule: false,
+                        }
+                    }
                 ]
             }
-        ]
+        ],
     },
     plugins: [
         new MinCssExtractPlugin({
