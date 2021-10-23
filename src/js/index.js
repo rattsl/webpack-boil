@@ -1,3 +1,4 @@
+import './reactApp.jsx';
 import "../styles/style.scss";
 import mymodule from "./mymodule";
 
