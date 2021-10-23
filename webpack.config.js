@@ -56,6 +56,9 @@ module.exports = {
                     //         name: 'images/icon.png'
                     //     }
                     // }
+                    {
+                        loader: 'image-webpack-loader',
+                    }
                 ]
             },
             {
