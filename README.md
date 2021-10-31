@@ -22,6 +22,7 @@
 |  react  |  main + Reactが書けるブランチ  |
 |  vue  |  main + Vueが書けるブランチ  |
 |  ts  |  main + TypeScriptが書けるブランチ  |
+|  ts-react  |  main + React + TypeScriptが書けるブランチ  |
 
 ### main
 
