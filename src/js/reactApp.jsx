@@ -1,9 +1,14 @@
   import ReactDOM from 'react-dom';
   import * as React from 'react';
 
+  import Alert from'./Alert.tsx';
+
   const App = (props) => {
     return(
-      <div>this is react componemt</div>
+      <div>
+        <div>this is react componemt</div>
+        <Alert message="warning!!!!!" />
+      </div>
     );
   };
 
