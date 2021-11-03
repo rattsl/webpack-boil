@@ -3,6 +3,16 @@
 このリポジトリはweb制作を効率的に行うためのwebpackの設定ファイルです。
 
 ## how to use
+
+```
+// プロジェクトクローン
+[linux] $ git clone -b 欲しいブランチ git@github.com:rattsl/webpack-boil.git
+
+// モジュールインストール
+[linux] $ npm install
+
+```
+
 ```
 // ローカルサーバー立ち上げ
 [linux] $ npm start
